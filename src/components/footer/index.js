@@ -19,9 +19,11 @@ export function Footer() {
                             <li>
                                 <h6>Para contratar</h6>
                                 <p>
-                                    Entre em contato com algum de nossos representantes. 
+                                    Entre em contato com algum de nossos representantes: 
+                                </p>
+                                <p>
                                     <Link className="novo-site" href="https://loovi.com.br">
-                                         Contratar agora
+                                         Loovi Seguros
                                     </Link> 
                                 </p>
                             </li>
@@ -45,9 +47,7 @@ export function Footer() {
                         <Image className="logo-rodape" src={Logo} alt="Logo LTI Seguro" />
                         <p>© Copyright LTI Seguros S/A - 2020  | Todos os direitos reservados</p>
                         <p>
-                            A LOOVI é uma insurtech que oferece serviços de tecnologia, assistência 24h e 
-                            produtos de seguros como representante da LTI Seguros S/A 
-                            (SUSEP n.º 15414.649321/2021-55).
+                            Cód. SUSEP: 110408 - Processos SUSEP Nº 15414.649321/2021-55
                         </p>
                     </div>
                 </ContentBottom>

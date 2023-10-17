@@ -11,9 +11,7 @@ export function Header() {
         <HeaderStyle>
             <Container>
                 <div className="logo">
-                    <Link href="/">
-                        <Image src={Logo} alt="Logo LTI Seguros"/>
-                    </Link>  
+                    <Image src={Logo} alt="Logo LTI Seguros"/>
                 </div>
             </Container>
         </HeaderStyle>

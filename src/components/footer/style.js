@@ -14,7 +14,7 @@ export const ContentTop = styled("div", {
             justifyContent: "space-between",
             li:{
                 grid: "3.2rem",
-                maxWidth: "298px",
+                maxWidth: "280px",
                 h6:{
                     fontFamily: "$BROmnyBold",
                     fontSize: "16px",
@@ -32,7 +32,7 @@ export const ContentTop = styled("div", {
                         color: "$branco",
                         fontFamily: "$BROmnyRegular",
                         transition: "color 0.3s ease",
-                        marginLeft: "2px",
+                        // marginLeft: "5px",
                         "&:hover":{
                             color: "$cinza",
                         }
@@ -52,15 +52,6 @@ export const ContentTop = styled("div", {
                         marginBottom: 0
                     }
                 },
-                "&:first-child":{
-                    width: "100%",
-                    maxWidth: "100%",
-                },
-                "&:nth-child(2)":{
-                    width: "100%",
-                    maxWidth: "100%",
-                },
-
             },
         }
     }
