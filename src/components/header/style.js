@@ -1,5 +1,4 @@
 import { styled } from "@/styles";
-import { Container } from "../../styles/global"
 
 export const HeaderSyle = styled("header", {
     position: "absolute",
@@ -9,4 +8,14 @@ export const HeaderSyle = styled("header", {
     display: "flex",
     alignItems: "center",
     zIndex: 2023,
+
+    "@lgscreen":{
+        background: "#000",
+    },
+    "@ipad":{
+        backgroundColor: "#fff",
+    },
+    "@celular": {
+        backgroundColor: "#008000",
+    }
 })

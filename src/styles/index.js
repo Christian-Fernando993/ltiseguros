@@ -21,6 +21,11 @@ createStitches({
             BROmnyBold: `${BROmnyBold.style.fontFamily}, sans-serif`,
             BROmnyMedium: `${BROmnyMedium.style.fontFamily}, sans-serif`,
             BROmnyRegular: `${BROmnyRegular.style.fontFamily}, sans-serif`,
-        }
+        },
+        media:{
+            lgscreen: "(max-width: 1200px)",
+            ipad: "(max-width: 991px)",
+            celular: "(max-width: 600px)",
+        },
     }, 
 });

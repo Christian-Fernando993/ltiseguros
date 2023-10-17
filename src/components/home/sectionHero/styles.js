@@ -31,7 +31,6 @@ export const ContexText = styled("div", {
     alignItems: "flex-start",
     justifyContent: "space-between",
     flex: 1,
-    paddingBottom: 31,
     ".left": {
         flex: 1,
         maxWidth: 522,
