@@ -6,7 +6,6 @@ import Logo from "../../assets/Logo_LTI.svg"
 import { HeaderStyle } from "./style"
 import { Container } from "../../styles/global"
 
-
 export function Header() {
     return(
         <HeaderStyle>

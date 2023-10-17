@@ -15,14 +15,6 @@ export const ContentTop = styled("div", {
             li:{
                 grid: "3.2rem",
                 maxWidth: "298px",
-                // "&:first-child":{
-                //     width: "100%",
-                //     maxWidth: "298px",
-                // },
-                // "&:nth-child(2)":{
-                //     width: "100%",
-                //     maxWidth: "331px",
-                // },
                 h6:{
                     fontFamily: "$BROmnyBold",
                     fontSize: "16px",

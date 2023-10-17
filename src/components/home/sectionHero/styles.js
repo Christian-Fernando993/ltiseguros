@@ -13,16 +13,16 @@ export const SectionHeroStyle = styled("section",{
         display: "flex",
         alignItems: "flex-start",
     },
-    // "&:after": {
-    //     content: "",
-    //     position: "relative",
-    //     // background: `url(${bgHero.src}) no-repeat top center`,
-    //     bottom: 0,
-    //     left: 0,
-    //     with: "100%",
-    //     height: 300,
-    //     zIndex: -1,
-    // }
+    "&:after": {
+        content: "",
+        width: "100%",
+        height: 417,
+        background: `url(${bgHero.src}) no-repeat top center`,
+        left: 0,
+        bottom: 0,
+        zIndex: -1,
+        position: "absolute",
+    },
     "@media(max-width: 1270px)":{
         height: "auto",  
     },
@@ -125,8 +125,6 @@ export const ContexText = styled("div", {
         ".right": {
             position: "inherit",
             top: 0,
-            // left: 0,
-
             ".modelo": {
                 maxWidth: "500px",
                 height: "600px",
@@ -139,18 +137,16 @@ export const ContexText = styled("div", {
                 fontSize: 50,
             },
             ".susep":{
-
                 display: "flex",
                 justifyContent: "center",
-
             }
         },
         ".right": {
             right: 0,
             bottom: 0,
             ".modelo": {
-                maxWidth: "300px",
-                height: "400px",
+                maxWidth: "280px",
+                height: "380px",
             }
         }
     }
