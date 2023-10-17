@@ -13,16 +13,19 @@ export const SectionHeroStyle = styled("section",{
         display: "flex",
         alignItems: "flex-start",
     },
-    "&:after": {
-        content: "",
-        position: "relative",
-        // background: `url(${bgHero.src}) no-repeat top center`,
-        bottom: 0,
-        left: 0,
-        with: "100%",
-        height: 300,
-        zIndex: -1,
-    }
+    // "&:after": {
+    //     content: "",
+    //     position: "relative",
+    //     // background: `url(${bgHero.src}) no-repeat top center`,
+    //     bottom: 0,
+    //     left: 0,
+    //     with: "100%",
+    //     height: 300,
+    //     zIndex: -1,
+    // }
+    "@media(max-width: 1270px)":{
+        height: "auto",  
+    },
 })
 
 export const ContexText = styled("div", {
@@ -30,7 +33,6 @@ export const ContexText = styled("div", {
     display: "flex",
     alignItems: "flex-start",
     justifyContent: "space-between",
-    // flex: 1,
     ".left": {
         flex: 1,
         maxWidth: 522,
@@ -73,15 +75,27 @@ export const ContexText = styled("div", {
     ".right":{
         position: "relative",
         bottom: 120,
-        right: 85,
         Image: {
             maxWidth: "682px",
             height: "926px",
         }
     },
     "@media(max-width: 1270px)":{
+        ".left":{
+            h1:{
+                fontSize: 60,
+            },
+            ".susep":{
+                marginLeft: 0,
+            }
+        },
         ".right": {
-            right: -50
+            right: -25,
+            bottom: 0,
+            ".modelo": {
+                maxWidth: "500px",
+                height: "600px",
+            }
         }
     },
     "@media(max-width: 991px)":{
@@ -98,6 +112,14 @@ export const ContexText = styled("div", {
                 p:{
                     maxWidth: "100%",
                 }
+            },
+            ".susep":{
+                display: "flex",
+                alignItems: "center",
+                p:{
+                    marginBottom: 0,
+                    marginRight: 10,
+                }
             }
         },
         ".right": {
@@ -106,7 +128,29 @@ export const ContexText = styled("div", {
             // left: 0,
 
             ".modelo": {
+                maxWidth: "500px",
+                height: "600px",
+            }
+        }
+    },
+    "@media(max-width: 680px)":{
+        ".left":{
+            h1:{
+                fontSize: 50,
+            },
+            ".susep":{
 
+                display: "flex",
+                justifyContent: "center",
+
+            }
+        },
+        ".right": {
+            right: 0,
+            bottom: 0,
+            ".modelo": {
+                maxWidth: "300px",
+                height: "400px",
             }
         }
     }
