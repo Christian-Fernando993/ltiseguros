@@ -20,7 +20,7 @@ export const ContentTop = styled("div", {
                     maxWidth: 331,
                 },
                 h6:{
-                    fontFamily: "BROmny-Bold",
+                    fontFamily: "$BROmnyBold",
                     fontSize: "16px",
                     fontWeight: 400,
                     lineHeight: "28px",
@@ -28,13 +28,13 @@ export const ContentTop = styled("div", {
                 },
                 p:{
                     color: "$cinza",
-                    fontFamily: "BROmny-Bold",
+                    fontFamily: "$BROmnyRegular",
                     fontSize: "16px",
-                    fontWeight: 100,
+                    fontWeight: 400,
                     lineHeight: "24px",
                     ".novo-site": {
                         color: "$branco",
-                        fontFamily: "BROmny-Bold",
+                        fontFamily: "$BROmnyRegular",
                         transition: "color 0.3s ease",
                         marginLeft: "2px",
                         "&:hover":{
@@ -57,7 +57,7 @@ export const ContentBottom = styled("div", {
             height: "31.396px",
         },
         p:{
-            fontFamily: "BROmny-Bold",
+            fontFamily: "$BROmnyRegular",
             fontSize: "12px",
             fontWeight: 400,
             lineHeight: "32px",

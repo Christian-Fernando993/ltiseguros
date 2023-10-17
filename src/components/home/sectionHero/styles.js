@@ -37,7 +37,7 @@ export const ContexText = styled("div", {
         maxWidth: 522,
         paddingTop: 152,
         h1: {
-            fontFamily: "BROmny-Bold, sans-serif",
+            fontFamily: "$BROmnyBold",
             fontSize: "68px",
             fontWeight: 400,
             lineHeight: "68px",
@@ -54,7 +54,7 @@ export const ContexText = styled("div", {
             },
             p:{
                 maxWidth: 406,
-                fontFamily: "BROmny-Bold, sans-serif",
+                fontFamily: "$BROmnyRegular",
                 fontSize: "16px",
                 fontWeight: 400,
                 lineHeight: "24px",
@@ -63,7 +63,7 @@ export const ContexText = styled("div", {
         ".susep":{
             marginLeft: 65,
             p: {
-                fontFamily: "BROmny-Bold",
+                fontFamily: "$BROmnyRegular",
                 fontSize: "16px",
                 fontWeight: 400,
                 lineHeight: "24px",
