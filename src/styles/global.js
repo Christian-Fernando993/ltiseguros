@@ -7,6 +7,7 @@ export const globalStyles = globalCss({
         boxSizing: "border-box",
         fontFamily: "$BROmnyBold",
         listStyle: "none",
+        
     },
     html:{
         fontSize: "62,5%"
@@ -31,4 +32,7 @@ export const Container = styled("div", {
     maxWidth: '1440px',
     margin: '0 auto',
     padding: '0 72px',
+    "@media(max-width: 991px)":{
+        padding: "0 30px",
+    }
 })

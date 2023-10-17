@@ -30,7 +30,7 @@ export const ContexText = styled("div", {
     display: "flex",
     alignItems: "flex-start",
     justifyContent: "space-between",
-    flex: 1,
+    // flex: 1,
     ".left": {
         flex: 1,
         maxWidth: 522,
@@ -77,6 +77,37 @@ export const ContexText = styled("div", {
         Image: {
             maxWidth: "682px",
             height: "926px",
+        }
+    },
+    "@media(max-width: 1270px)":{
+        ".right": {
+            right: -50
+        }
+    },
+    "@media(max-width: 991px)":{
+        flexDirection: "column",
+        alignItems: "center",
+        margin: "0 auto",
+        ".left":{
+            paddingTop: 60,
+            maxWidth: "100%",
+            h1: {
+                textAlign: "center",
+            },
+            ".paragraph":{
+                p:{
+                    maxWidth: "100%",
+                }
+            }
+        },
+        ".right": {
+            position: "inherit",
+            top: 0,
+            // left: 0,
+
+            ".modelo": {
+
+            }
         }
     }
 })

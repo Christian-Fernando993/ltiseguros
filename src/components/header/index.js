@@ -3,20 +3,20 @@ import Link from 'next/link'
 
 import Logo from "../../assets/Logo_LTI.svg"
 
-import {HeaderSyle} from "./style"
+import { HeaderStyle } from "./style"
 import { Container } from "../../styles/global"
 
 
 export function Header() {
     return(
-        <HeaderSyle>
+        <HeaderStyle>
             <Container>
                 <div className="logo">
                     <Link href="/">
                         <Image src={Logo} alt="Logo LTI Seguros"/>
-                    </Link>         
+                    </Link>  
                 </div>
             </Container>
-        </HeaderSyle>
+        </HeaderStyle>
     )
 }

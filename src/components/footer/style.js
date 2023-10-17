@@ -13,12 +13,16 @@ export const ContentTop = styled("div", {
             display: "flex",
             justifyContent: "space-between",
             li:{
-                "&:first-child":{
-                    maxWidth: 298,
-                },
-                "&:nth-child(2)":{
-                    maxWidth: 331,
-                },
+                grid: "3.2rem",
+                maxWidth: "298px",
+                // "&:first-child":{
+                //     width: "100%",
+                //     maxWidth: "298px",
+                // },
+                // "&:nth-child(2)":{
+                //     width: "100%",
+                //     maxWidth: "331px",
+                // },
                 h6:{
                     fontFamily: "$BROmnyBold",
                     fontSize: "16px",
@@ -42,7 +46,30 @@ export const ContentTop = styled("div", {
                         }
                     }
                 }
-            }
+            },
+        },
+        "@media(max-width: 1280px)": {
+            ul: {
+                gap: "2rem",
+                textAlign: "center",
+                flexDirection: "column",
+                li:{
+                    width: "100%",
+                    maxWidth: "100%",
+                    h6:{
+                        marginBottom: 0
+                    }
+                },
+                "&:first-child":{
+                    width: "100%",
+                    maxWidth: "100%",
+                },
+                "&:nth-child(2)":{
+                    width: "100%",
+                    maxWidth: "100%",
+                },
+
+            },
         }
     }
 })
@@ -61,6 +88,17 @@ export const ContentBottom = styled("div", {
             fontSize: "12px",
             fontWeight: 400,
             lineHeight: "32px",
+            maxWidth: 510,
+        },
+        "@media(max-width: 1100px)":{
+            flexDirection: "column",
+            gap: "2rem",
+        },
+        "@media(max-width: 680px)":{
+            textAlign: "center",
+            p:{
+                lineHeight: "20px",
+            }
         }
     }
 })

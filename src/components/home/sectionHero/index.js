@@ -24,7 +24,7 @@ export function SectionHero() {
                         </div>
                     </div>
                     <div className="right">
-                        <Image src={Modelo} alt="Mulher com a mão proximo a regiao do coração" />
+                        <Image src={Modelo} className="modelo" alt="Mulher com a mão proximo a regiao do coração" />
                     </div>
                 </ContexText>
             </Container>

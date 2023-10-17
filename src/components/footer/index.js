@@ -1,5 +1,6 @@
 import { FooterStyle, ContentTop, ContentBottom } from "./style";
 import { Container } from "../../styles/global";
+
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../assets/Logo_LTI.svg"
@@ -21,8 +22,7 @@ export function Footer() {
                                     Entre em contato com algum de nossos representantes. 
                                     <Link className="novo-site" href="https://loovi.com.br">
                                          Contratar agora
-                                    </Link>
-                                    
+                                    </Link> 
                                 </p>
                             </li>
                             <li>
@@ -44,7 +44,11 @@ export function Footer() {
                     <div className="copy">
                         <Image className="logo-rodape" src={Logo} alt="Logo LTI Seguro" />
                         <p>© Copyright LTI Seguros S/A - 2020  | Todos os direitos reservados</p>
-                        <p>Cód. SUSEP: 110408 - Processos susep Nº 15414.649321/2021-55</p>
+                        <p>
+                            A LOOVI é uma insurtech que oferece serviços de tecnologia, assistência 24h e 
+                            produtos de seguros como representante da LTI Seguros S/A 
+                            (SUSEP n.º 15414.649321/2021-55).
+                        </p>
                     </div>
                 </ContentBottom>
             </Container>

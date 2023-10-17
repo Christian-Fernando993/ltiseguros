@@ -1,6 +1,6 @@
 import { styled } from "@/styles";
 
-export const HeaderSyle = styled("header", {
+export const HeaderStyle = styled("header", {
     position: "absolute",
     top: 0,
     width: "100%",
@@ -8,14 +8,10 @@ export const HeaderSyle = styled("header", {
     display: "flex",
     alignItems: "center",
     zIndex: 2023,
-
-    "@lgscreen":{
-        background: "#000",
+    ".logo":{
+        "@media(max-width: 991px)":{
+            display: "flex",
+            justifyContent: "center"
+        },
     },
-    "@ipad":{
-        backgroundColor: "#fff",
-    },
-    "@celular": {
-        backgroundColor: "#008000",
-    }
 })
