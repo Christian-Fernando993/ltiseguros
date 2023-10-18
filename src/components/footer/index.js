@@ -37,7 +37,7 @@ export function Footer() {
                             </li>
                             <li>
                                 <h6>Assessoria de imprensa</h6>
-                                <p>assessoriadeimprensa@loovi.com</p>
+                                <p>assessoriadeimprensa@loovi.com.br</p>
                             </li>
                         </ul>
                     </div>

@@ -20,7 +20,7 @@ export const ContentTop = styled("div", {
                     fontSize: "16px",
                     fontWeight: 400,
                     lineHeight: "28px",
-                    marginBottom: 16,
+                    marginBottom: 10,
                 },
                 p:{
                     color: "$cinza",
@@ -32,7 +32,6 @@ export const ContentTop = styled("div", {
                         color: "$branco",
                         fontFamily: "$BROmnyRegular",
                         transition: "color 0.3s ease",
-                        // marginLeft: "5px",
                         "&:hover":{
                             color: "$cinza",
                         }

@@ -146,7 +146,7 @@ export const ContexText = styled("div", {
             bottom: 0,
             ".modelo": {
                 maxWidth: "280px",
-                height: "380px",
+                height: "350px",
             }
         }
     }
