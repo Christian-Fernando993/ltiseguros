@@ -149,5 +149,20 @@ export const ContexText = styled("div", {
                 height: "350px",
             }
         }
+    },
+    "@media(max-width: 380px)": {
+        ".left": {
+            h1: {
+                fontSize: "44px",
+                lineHeight: "60px",
+            }
+        },
+        
+        ".right": {
+            ".modelo": {
+                maxWidth: "250px",
+                height: "310px", 
+            }
+        }
     }
 })

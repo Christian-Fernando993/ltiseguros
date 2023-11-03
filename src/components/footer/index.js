@@ -37,7 +37,12 @@ export function Footer() {
                             </li>
                             <li>
                                 <h6>Assessoria de imprensa</h6>
-                                <p>assessoriadeimprensa@loovi.com.br</p>
+                                <p className="email" href="assessoriadeimprensa@ltiseguros.com.br">
+                                    assessoriadeimprensa@ltiseguros.com.br
+                                </p>
+                                <Link className="email-mobile" href="mailto: assessoriadeimprensa@ltiseguros.com.br" >
+                                    assessoriadeimprensa@ltiseguros.com.br
+                                </Link> 
                             </li>
                         </ul>
                     </div>

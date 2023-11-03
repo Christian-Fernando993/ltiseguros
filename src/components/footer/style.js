@@ -1,4 +1,5 @@
 import { styled } from "@/styles";
+import { Container } from "@/styles/global";
 
 export const FooterStyle = styled("footer", {
     background: "$roxo",
@@ -36,6 +37,9 @@ export const ContentTop = styled("div", {
                             color: "$cinza",
                         }
                     }
+                },
+                ".email-mobile": {
+                    display: "none",
                 }
             },
         },
@@ -52,6 +56,24 @@ export const ContentTop = styled("div", {
                     }
                 },
             },
+        },
+        "@media(max-width: 380px)": {
+            ".email": {
+                display: "none",
+            },
+            ".email-mobile": {
+                display: "block !important",
+                color: "$cinza",
+                fontFamily: "var(--fonts-BROmnyRegular)",
+                textDecoration: "none",
+                fontSize: "14px",
+                fontWeight: 400,
+                lineHeight: "24px",
+                justifyContent: "center",
+                "&:hover": {
+                    color: "$branco", 
+                }
+            }
         }
     }
 })
